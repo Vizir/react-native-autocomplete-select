@@ -1,0 +1,117 @@
+exports[`AutoComplete renders correctly 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <View
+    style={
+        Object {
+            "flex": 1,
+          }
+    }>
+    <TextInput
+        onChangeText={[Function]}
+        style={
+            Object {
+                "fontSize": 15,
+              }
+        } />
+</View>,
+  "nodes": Array [
+    <View
+      style={
+            Object {
+                  "flex": 1,
+                }
+      }>
+      <TextInput
+            onChangeText={[Function]}
+            style={
+                  Object {
+                        "fontSize": 15,
+                      }
+            } />
+</View>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_instance": ShallowComponentWrapper {
+      "_calledComponentWillUnmount": false,
+      "_compositeType": 0,
+      "_context": Object {},
+      "_currentElement": <AutoComplete />,
+      "_hostContainerInfo": null,
+      "_hostParent": null,
+      "_instance": AutoComplete {
+        "_reactInternalInstance": [Circular],
+        "context": Object {},
+        "filterSugestions": [Function],
+        "isSimilar": [Function],
+        "onChangeText": [Function],
+        "props": Object {},
+        "refs": Object {},
+        "renderSuggestions": [Function],
+        "state": null,
+        "suggestionClick": [Function],
+        "updater": Object {
+          "enqueueCallback": [Function],
+          "enqueueCallbackInternal": [Function],
+          "enqueueElementInternal": [Function],
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+          "validateCallback": [Function],
+        },
+      },
+      "_mountOrder": 1,
+      "_pendingCallbacks": null,
+      "_pendingElement": null,
+      "_pendingForceUpdate": false,
+      "_pendingReplaceState": false,
+      "_pendingStateQueue": null,
+      "_renderedComponent": NoopInternalComponent {
+        "_currentElement": <View
+          style={
+                    Object {
+                              "flex": 1,
+                            }
+          }>
+          <TextInput
+                    onChangeText={[Function]}
+                    style={
+                              Object {
+                                        "fontSize": 15,
+                                      }
+                    } />
+</View>,
+        "_renderedOutput": <View
+          style={
+                    Object {
+                              "flex": 1,
+                            }
+          }>
+          <TextInput
+                    onChangeText={[Function]}
+                    style={
+                              Object {
+                                        "fontSize": 15,
+                                      }
+                    } />
+</View>,
+      },
+      "_renderedNodeType": 1,
+      "_rootNodeID": 0,
+      "_topLevelWrapper": null,
+      "_updateBatchNumber": null,
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <AutoComplete />,
+}
+`;
