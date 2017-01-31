@@ -27,7 +27,8 @@ describe('AutoComplete', () => {
     const params = {
       value: '0.5',
       suggestions: fakeSuggestions,
-      suggestionObjectTextProperty: 'text'
+      suggestionObjectTextProperty: 'text',
+      minimumSimilarityScore: 0.5
     }
 
     const wrapper = shallow(
@@ -47,7 +48,8 @@ describe('AutoComplete', () => {
     let params = {
       value: '0.5',
       suggestions: fakeSuggestions,
-      suggestionObjectTextProperty: 'text'
+      suggestionObjectTextProperty: 'text',
+      minimumSimilarityScore: 0.5
     }
 
     const wrapper = shallow(
@@ -71,7 +73,8 @@ describe('AutoComplete', () => {
       value: '0.5',
       suggestions: fakeSuggestions,
       suggestionObjectTextProperty: 'text',
-      onSelect: jest.fn()
+      onSelect: jest.fn(),
+      minimumSimilarityScore: 0.5
     }
 
     const wrapper = shallow(

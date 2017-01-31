@@ -1,5 +1,5 @@
 const stringScore = (leftString, rightString) => {
-  if (parseFloat(leftString) <= parseFloat(rightString)) {
+  if (parseFloat(leftString) >= parseFloat(rightString)) {
     return parseFloat(rightString)
   }
 

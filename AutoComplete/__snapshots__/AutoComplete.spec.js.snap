@@ -14,7 +14,7 @@ ShallowWrapper {
     }>
     <TextInput
         comparationFuzziness={0.5}
-        minimumSimilarityScore={0.45}
+        minimumSimilarityScore={0.6}
         onChangeText={[Function]}
         style={
             Object {
@@ -31,7 +31,7 @@ ShallowWrapper {
       }>
       <TextInput
             comparationFuzziness={0.5}
-            minimumSimilarityScore={0.45}
+            minimumSimilarityScore={0.6}
             onChangeText={[Function]}
             style={
                   Object {
@@ -48,7 +48,7 @@ ShallowWrapper {
       "_context": Object {},
       "_currentElement": <AutoComplete
         comparationFuzziness={0.5}
-        minimumSimilarityScore={0.45} />,
+        minimumSimilarityScore={0.6} />,
       "_hostContainerInfo": null,
       "_hostParent": null,
       "_instance": AutoComplete {
@@ -60,7 +60,7 @@ ShallowWrapper {
         "onChangeText": [Function],
         "props": Object {
           "comparationFuzziness": 0.5,
-          "minimumSimilarityScore": 0.45,
+          "minimumSimilarityScore": 0.6,
         },
         "refs": Object {},
         "renderSuggestions": [Function],
@@ -93,7 +93,7 @@ ShallowWrapper {
           }>
           <TextInput
                     comparationFuzziness={0.5}
-                    minimumSimilarityScore={0.45}
+                    minimumSimilarityScore={0.6}
                     onChangeText={[Function]}
                     style={
                               Object {
@@ -109,7 +109,7 @@ ShallowWrapper {
           }>
           <TextInput
                     comparationFuzziness={0.5}
-                    minimumSimilarityScore={0.45}
+                    minimumSimilarityScore={0.6}
                     onChangeText={[Function]}
                     style={
                               Object {
@@ -129,6 +129,6 @@ ShallowWrapper {
   "root": [Circular],
   "unrendered": <AutoComplete
     comparationFuzziness={0.5}
-    minimumSimilarityScore={0.45} />,
+    minimumSimilarityScore={0.6} />,
 }
 `;
