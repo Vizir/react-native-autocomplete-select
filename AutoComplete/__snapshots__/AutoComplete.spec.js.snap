@@ -13,6 +13,8 @@ ShallowWrapper {
           }
     }>
     <TextInput
+        comparationFuzziness={0.5}
+        minimumSimilarityScore={0.45}
         onChangeText={[Function]}
         style={
             Object {
@@ -28,6 +30,8 @@ ShallowWrapper {
                 }
       }>
       <TextInput
+            comparationFuzziness={0.5}
+            minimumSimilarityScore={0.45}
             onChangeText={[Function]}
             style={
                   Object {
@@ -42,7 +46,9 @@ ShallowWrapper {
       "_calledComponentWillUnmount": false,
       "_compositeType": 0,
       "_context": Object {},
-      "_currentElement": <AutoComplete />,
+      "_currentElement": <AutoComplete
+        comparationFuzziness={0.5}
+        minimumSimilarityScore={0.45} />,
       "_hostContainerInfo": null,
       "_hostParent": null,
       "_instance": AutoComplete {
@@ -51,7 +57,10 @@ ShallowWrapper {
         "filterSugestions": [Function],
         "isSimilar": [Function],
         "onChangeText": [Function],
-        "props": Object {},
+        "props": Object {
+          "comparationFuzziness": 0.5,
+          "minimumSimilarityScore": 0.45,
+        },
         "refs": Object {},
         "renderSuggestions": [Function],
         "state": null,
@@ -81,6 +90,8 @@ ShallowWrapper {
                             }
           }>
           <TextInput
+                    comparationFuzziness={0.5}
+                    minimumSimilarityScore={0.45}
                     onChangeText={[Function]}
                     style={
                               Object {
@@ -95,6 +106,8 @@ ShallowWrapper {
                             }
           }>
           <TextInput
+                    comparationFuzziness={0.5}
+                    minimumSimilarityScore={0.45}
                     onChangeText={[Function]}
                     style={
                               Object {
@@ -112,6 +125,8 @@ ShallowWrapper {
     "render": [Function],
   },
   "root": [Circular],
-  "unrendered": <AutoComplete />,
+  "unrendered": <AutoComplete
+    comparationFuzziness={0.5}
+    minimumSimilarityScore={0.45} />,
 }
 `;

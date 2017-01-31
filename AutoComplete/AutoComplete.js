@@ -113,4 +113,24 @@ class AutoComplete extends Component {
   }
 }
 
+AutoComplete.propTypes = {
+  suggestions: React.PropTypes.array,
+  value: React.PropTypes.string,
+  minimumSimilarityScore: React.PropTypes.number,
+  comparationFuzziness: React.PropTypes.number,
+  textProperty: React.PropTypes.string,
+  onChangeText: React.PropTypes.func,
+  onSelect: React.PropTypes.func,
+  suggestionsWrapperStyle: React.PropTypes.any,
+  suggestionStyle: React.PropTypes.any,
+  suggestionTextStyle: React.PropTypes.any,
+  style: React.PropTypes.any,
+  inputStyle: React.PropTypes.any
+}
+
+AutoComplete.defaultProps = {
+  minimumSimilarityScore: 0.45,
+  comparationFuzziness: 0.5
+}
+
 export default AutoComplete
