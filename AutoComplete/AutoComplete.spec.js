@@ -27,7 +27,7 @@ describe('AutoComplete', () => {
     const params = {
       value: '0.5',
       suggestions: fakeSuggestions,
-      textProperty: 'text'
+      suggestionObjectTextProperty: 'text'
     }
 
     const wrapper = shallow(
@@ -47,7 +47,7 @@ describe('AutoComplete', () => {
     let params = {
       value: '0.5',
       suggestions: fakeSuggestions,
-      textProperty: 'text'
+      suggestionObjectTextProperty: 'text'
     }
 
     const wrapper = shallow(
@@ -70,7 +70,7 @@ describe('AutoComplete', () => {
     const params = {
       value: '0.5',
       suggestions: fakeSuggestions,
-      textProperty: 'text',
+      suggestionObjectTextProperty: 'text',
       onSelect: jest.fn()
     }
 

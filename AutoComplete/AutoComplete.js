@@ -16,6 +16,13 @@ class AutoComplete extends Component {
     )
   }
 
+  getSuggestionText = (suggestion) => {
+    if (this.props.suggestionObjectTextProperty) {
+      return suggestion[this.props.suggestionObjectTextProperty]
+    }
+
+    return suggestion
+  }
 
   isSimilar = (value, suggestionText) => {
     const minimumScore = this.props.minimumSimilarityScore
@@ -35,12 +42,7 @@ class AutoComplete extends Component {
     }
 
     return newSuggestions.reduce((suggestions, suggestion) => {
-      let suggestionText
-      if (this.props.textProperty) {
-        suggestionText = suggestion[this.props.textProperty]
-      } else {
-        suggestionText = suggestion
-      }
+      const suggestionText = this.getSuggestionText(suggestion)
 
       if (!suggestionText || !this.isSimilar(value, suggestionText)) {
         return suggestions
@@ -118,9 +120,9 @@ AutoComplete.propTypes = {
   value: React.PropTypes.string,
   minimumSimilarityScore: React.PropTypes.number,
   comparationFuzziness: React.PropTypes.number,
-  textProperty: React.PropTypes.string,
+  suggestionObjectTextProperty: React.PropTypes.string,
   onChangeText: React.PropTypes.func,
-  onSelect: React.PropTypes.func,
+  onSelect: React.PropTypes.func.isRequired,
   suggestionsWrapperStyle: React.PropTypes.any,
   suggestionStyle: React.PropTypes.any,
   suggestionTextStyle: React.PropTypes.any,

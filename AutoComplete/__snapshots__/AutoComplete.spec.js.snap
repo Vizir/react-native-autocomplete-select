@@ -55,6 +55,7 @@ ShallowWrapper {
         "_reactInternalInstance": [Circular],
         "context": Object {},
         "filterSugestions": [Function],
+        "getSuggestionText": [Function],
         "isSimilar": [Function],
         "onChangeText": [Function],
         "props": Object {
