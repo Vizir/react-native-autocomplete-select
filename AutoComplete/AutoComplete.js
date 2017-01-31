@@ -16,11 +16,11 @@ class AutoComplete extends Component {
     )
   }
 
-  isSimilar = (value, suggestionText) => {
-    const minimumScore = this.props.minimumSimilarityScore || 0.45
 
+  isSimilar = (value, suggestionText) => {
+    const minimumScore = this.props.minimumSimilarityScore
     const suggestionScore = stringScore(
-      value, suggestionText, this.props.comparationFuzziness || 0.5
+      value, suggestionText, this.props.comparationFuzziness
     )
 
     return suggestionScore >= minimumScore
