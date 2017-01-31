@@ -38,7 +38,8 @@
   "jest": {
     "collectCoverage": true,
     "collectCoverageFrom": [
-      "*.{js,jsx}"
+      "index.js",
+      "AutoComplete/**/*.js"
     ],
     "coverageDirectory": "./coverage",
     "preset": "react-native",
