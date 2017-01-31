@@ -25,19 +25,20 @@ class AutoComplete extends Component {
   }
 
   isSimilar = (value, suggestionText) => {
-    const minimumScore = this.props.minimumSimilarityScore
     const suggestionScore = stringScore(
       value, suggestionText, this.props.comparationFuzziness
     )
 
-    return suggestionScore >= minimumScore
+    return suggestionScore >= this.props.minimumSimilarityScore
+  }
+
+  shouldFilterSuggestions = (newSuggestions, value) => {
+    return newSuggestions && newSuggestions.length &&
+      value && !this.selectedSuggestion
   }
 
   filterSugestions = (newSuggestions, value) => {
-    if (
-      !newSuggestions || !newSuggestions.length ||
-      !value || this.selectedSuggestion
-    ) {
+    if (!this.shouldFilterSuggestions(newSuggestions, value)) {
       return {}
     }
 

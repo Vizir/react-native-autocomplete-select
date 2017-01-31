@@ -64,6 +64,7 @@ ShallowWrapper {
         },
         "refs": Object {},
         "renderSuggestions": [Function],
+        "shouldFilterSuggestions": [Function],
         "state": null,
         "suggestionClick": [Function],
         "updater": Object {
