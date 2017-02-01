@@ -63,6 +63,18 @@ Will output:
 | style | Style of the component. |
 | inputStyle | Style of the text input. |
 
+## Contributing
+
+1. Fork this repository
+2. Create a branch based on master about what you are doing
+  - Names should be separated by hyphen: example-name
+3. Commit using the format: \[\<type\>\] \<message\>
+  - The type should be: Feat, Fix, Refactor or Docs
+  - Example message: \[Docs\] Added contributing to readme
+  - Do not forget to add tests!
+4. Run all tests `npm test` and linter `npm run lint`
+5. Create a pull request describing the changes you made
+
 ## License
 
 [MIT](https://opensource.org/licenses/MIT)
