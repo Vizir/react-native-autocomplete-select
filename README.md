@@ -1,5 +1,7 @@
 # react-native-autocomplete-select
 
+![alt text](autocompleteSelect.jpg "Autocomplete React Native")
+
 > Simple AutoComplete with selection for react-native
 
 [![Standard - JavaScript Style Guide](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/) [![Build Status](https://travis-ci.org/Vizir/react-native-autocomplete-select.svg?branch=master)](https://travis-ci.org/Vizir/react-native-autocomplete-select)
