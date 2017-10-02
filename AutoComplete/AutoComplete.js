@@ -117,7 +117,7 @@ class AutoComplete extends Component {
   }
 }
 
-//migrated proptype for react 15+
+// migrated proptype for react 15+
 AutoComplete.propTypes = {
   suggestions: PropTypes.array,
   value: PropTypes.string,
