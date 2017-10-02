@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import PropTypes from 'prop-types'
 import { TouchableHighlight, Text, TextInput, View } from 'react-native'
 import stringScore from 'string_score'
 import Styles from './Styles'
@@ -116,19 +117,20 @@ class AutoComplete extends Component {
   }
 }
 
+//migrated proptype for react 15+
 AutoComplete.propTypes = {
-  suggestions: React.PropTypes.array,
-  value: React.PropTypes.string,
-  minimumSimilarityScore: React.PropTypes.number,
-  comparationFuzziness: React.PropTypes.number,
-  suggestionObjectTextProperty: React.PropTypes.string,
-  onChangeText: React.PropTypes.func,
-  onSelect: React.PropTypes.func.isRequired,
-  suggestionsWrapperStyle: React.PropTypes.any,
-  suggestionStyle: React.PropTypes.any,
-  suggestionTextStyle: React.PropTypes.any,
-  style: React.PropTypes.any,
-  inputStyle: React.PropTypes.any
+  suggestions: PropTypes.array,
+  value: PropTypes.string,
+  minimumSimilarityScore: PropTypes.number,
+  comparationFuzziness: PropTypes.number,
+  suggestionObjectTextProperty: PropTypes.string,
+  onChangeText: PropTypes.func,
+  onSelect: PropTypes.func.isRequired,
+  suggestionsWrapperStyle: PropTypes.any,
+  suggestionStyle: PropTypes.any,
+  suggestionTextStyle: PropTypes.any,
+  style: PropTypes.any,
+  inputStyle: PropTypes.any
 }
 
 AutoComplete.defaultProps = {
