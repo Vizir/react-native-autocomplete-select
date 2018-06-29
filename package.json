@@ -1,6 +1,6 @@
 {
   "name": "react-native-autocomplete-select",
-  "version": "1.0.0",
+  "version": "1.1.0-rc1",
   "description": "AutoComplete with selection for react-native",
   "main": "index.js",
   "repository": {
@@ -20,8 +20,6 @@
   "author": "Thiago Porto",
   "license": "MIT",
   "dependencies": {
-    "react": ">=15.4.1",
-    "react-native": ">=0.38.0",
     "string_score": "git+https://github.com/ThiagoNP/string_score.git"
   },
   "devDependencies": {
@@ -30,8 +28,10 @@
     "enzyme": "^2.7.1",
     "husky": "^0.13.1",
     "jest": "^18.1.0",
-    "react-addons-test-utils": ">=15.4.1",
-    "react-dom": ">=15.4.1",
+    "react-addons-test-utils": ">=16.3.1",
+    "react-dom": ">=16.3.1",
+    "react-native": ">=0.55.2",
+    "react": ">=16.3.1",
     "snazzy": "^6.0.0",
     "standard": "^8.6.0"
   },
