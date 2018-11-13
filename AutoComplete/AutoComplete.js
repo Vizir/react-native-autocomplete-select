@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { TouchableHighlight, Text, TextInput, View } from 'react-native'
 import stringScore from 'string_score'
 import Styles from './Styles'
-import PropTypes from 'prop-types';
+import PropTypes from 'prop-types'
 
 class AutoComplete extends Component {
   componentDidMount () {
