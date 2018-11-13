@@ -118,18 +118,18 @@ class AutoComplete extends Component {
 }
 
 AutoComplete.propTypes = {
-  suggestions:PropTypes.array,
-  value:PropTypes.string,
-  minimumSimilarityScore:PropTypes.number,
-  comparationFuzziness:PropTypes.number,
-  suggestionObjectTextProperty:PropTypes.string,
-  onChangeText:PropTypes.func,
-  onSelect:PropTypes.func.isRequired,
-  suggestionsWrapperStyle:PropTypes.any,
-  suggestionStyle:PropTypes.any,
-  suggestionTextStyle:PropTypes.any,
-  style:PropTypes.any,
-  inputStyle:PropTypes.any
+  suggestions: PropTypes.array,
+  value: PropTypes.string,
+  minimumSimilarityScore: PropTypes.number,
+  comparationFuzziness: PropTypes.number,
+  suggestionObjectTextProperty: PropTypes.string,
+  onChangeText: PropTypes.func,
+  onSelect: PropTypes.func.isRequired,
+  suggestionsWrapperStyle: PropTypes.any,
+  suggestionStyle: PropTypes.any,
+  suggestionTextStyle: PropTypes.any,
+  style: PropTypes.any,
+  inputStyle: PropTypes.any
 }
 
 AutoComplete.defaultProps = {
